@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+/* .mobiletesting {
+    background-color: aqua;
+} */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.mobile-nav {
+    display: none;
+
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+    .container-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contain {
+        margin-right: 470px;
+    }
+
+    .logo {
+        width: 70px;
+    }
+
+
+
+    .contain {
+        display: none;
+
+
+    }
+
+    .mobile-nav {
+        display: block;
+        margin-top: 15px;
+
+        width: 35px;
+        display: flex;
+        justify-content: end;
+        /* height: 10px; */
+    }
+
+    .navb {
+        /* width: 1000px; */
+        /* height: 200px; */
+        margin-left: 10px;
+        gap: 5px;
+        margin-top: 5px;
+        font-size: small;
+        font-weight: 1000;
+    }
+
+    .hero {
+        margin-left: 10px !important;
+        margin-top: -12px;
+        font-size: 11px;
+    }
+
+    .heading {
+        font-size: 14px;
+        margin-top: -8px;
+        font-weight: 800;
+    }
+
+    .para {
+        width: 310px;
+        margin-top: -10px;
+        line-height: 18px;
+    }
+
+}
